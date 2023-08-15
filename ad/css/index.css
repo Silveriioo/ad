@@ -1,0 +1,62 @@
+:root {
+  --turq: #00ae9d;
+  --turqd: #009082;
+  --verdee: #003641;
+  --verdem: #7db61c;
+  --verdec: #c9d200;
+  --roxo: #49479d;
+  --branco: #fff;
+  --cinzac: #f9f9f9;
+  --cinzam: #e0dddd;
+  --cinza: #5e5e5e;
+  --cinzae: #3b3b3b;
+  --preto: #000;
+  --transparente: rgba(0, 0, 0, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--preto);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+body > .container1 {
+  width: 400px;
+  padding: 25px;
+  box-shadow: 4px 4px 10px 6px rgba(0, 0, 0, 0.3);
+}
+
+#cadastro {
+  width: 150px;
+}
+
+.section {
+position: relative;
+}
+.section > input {
+  position: absolute;
+}
+.icon{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translateY(-50%);
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.icon > i {
+  background-color: #000;
+  font-size: 20px;
+  z-index: 1;
+}

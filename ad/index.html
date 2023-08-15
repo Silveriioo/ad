@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Login</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container1">
+      <div class="centered-content1">
+        <form method="POST" id="login">
+          <!-- EMAIL -->
+          <div class="form-outline mb-4">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="email@credicucar.com.br"
+            />
+            <label class="form-label" for="form6Example6">Email</label>
+          </div>
+
+          <!-- SENHA -->
+          <section class="form-outline mb-4">
+            <input
+              type="password"
+              id="senha"
+              placeholder="Digite sua senha"
+              class="form-control"
+              maxlength="20"
+              minlength="8"
+            />
+            <div class="icon"><i class="bi bi-eye-fill"></i></div>
+            <div class="icon"><i class="bi bi-eye-slash-fill"></i></div>
+            <label class="form-label" for="form6Example5">Senha</label>
+          </section>
+
+          <div class="submit">
+            <center><input type="submit" id="cadastro" value="Logar" /></center>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+
+  <!-- MDB -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"
+  ></script>
+  <script
+    src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/authLogin.js"></script>
+</html>
